@@ -10,4 +10,8 @@
 
 <Header {currentView} />
 
-<svelte:component this={currentView} />
+<div class="p-6 flex justify-center">
+	<div class="max-w-screen-md">
+		<svelte:component this={currentView} />
+	</div>
+</div>
